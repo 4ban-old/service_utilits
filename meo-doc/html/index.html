@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Документация по внутренним утилитам &mdash; Документация Документация МЭО по внутренним утилитам 0.1</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Документация Документация МЭО по внутренним утилитам 0.1" href="#"/>
+        <link rel="next" title="Кодировщик .csv [csv_encoder]" href="csv_encoder.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="csv_encoder.html">Кодировщик .csv <sup>[csv_encoder]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="find_id_content_from_yaml.html">Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser.html">Полуавтоматический перенос курсов <sup>[parser]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="renamer.html">Транслитерация курсов <sup>[renamer]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="yamliddoubles.html">Дубликаты в .yaml <sup>[yamliddoubles]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="auto_yaml.html">Генератор yaml <sup>[auto_yaml]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="xmlmergetool.html">Слияние .xml файлов <sup>[xmlmergetool]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="all_translit.html">Транслитерация текста <sup>[all_translit]</sup></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Документация МЭО по внутренним утилитам</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Документация по внутренним утилитам</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Документация по внутренним утилитам<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="sidebar">
+<p class="first sidebar-title">Замечание</p>
+<p>При отправке сообщения разработчику, крайне рекомендуется подготовить входные данные и внятно описать проблему.</p>
+<p>Например:</p>
+<p>У меня тут это... не работает ниче ваще - <code class="docutils literal"><span class="pre">НЕ</span> <span class="pre">ПРАВИЛЬНО</span></code></p>
+<p class="last">У меня не работает программа кодировщик csv файлов (csv_encoder), такая-то ошибка (если есть), на этом файле (ссылка или приложение). - <code class="docutils literal"><span class="pre">ПРАВИЛЬНО</span></code></p>
+</div>
+<table border="1" class="docutils" id="id2">
+<caption><span class="caption-text">Контактные данные разработчика</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>e-mail</td>
+<td><a class="reference external" href="mailto:d&#46;kryukov&#37;&#52;&#48;mob-edu&#46;ru">d<span>&#46;</span>kryukov<span>&#64;</span>mob-edu<span>&#46;</span>ru</a></td>
+</tr>
+<tr class="row-even"><td>skype</td>
+<td>xkcd..</td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="csv_encoder.html">Кодировщик .csv <sup>[csv_encoder]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="csv_encoder.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csv_encoder.html#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csv_encoder.html#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csv_encoder.html#id7">Ошибки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csv_encoder.html#id8">Для продвинутых</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="find_id_content_from_yaml.html">Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="find_id_content_from_yaml.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="find_id_content_from_yaml.html#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="find_id_content_from_yaml.html#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="find_id_content_from_yaml.html#id7">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="parser.html">Полуавтоматический перенос курсов <sup>[parser]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="parser.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parser.html#id4">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parser.html#id7">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="parser.html#id8">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="renamer.html">Транслитерация курсов <sup>[renamer]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="renamer.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="renamer.html#id5">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="renamer.html#id8">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="renamer.html#id9">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="yamliddoubles.html">Дубликаты в .yaml <sup>[yamliddoubles]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="yamliddoubles.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="yamliddoubles.html#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="yamliddoubles.html#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="yamliddoubles.html#id7">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="auto_yaml.html">Генератор yaml <sup>[auto_yaml]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="auto_yaml.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="auto_yaml.html#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="auto_yaml.html#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="auto_yaml.html#id7">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xmlmergetool.html">Слияние .xml файлов <sup>[xmlmergetool]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xmlmergetool.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xmlmergetool.html#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xmlmergetool.html#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xmlmergetool.html#id7">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="all_translit.html">Транслитерация текста <sup>[all_translit]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="all_translit.html#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="all_translit.html#id4">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="all_translit.html#id7">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="all_translit.html#id8">Ошибки</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="csv_encoder.html" class="btn btn-neutral float-right" title="Кодировщик .csv [csv_encoder]" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Dmitry Kryukov.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

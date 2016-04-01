@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:manifest xmlns:ns2="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1">
+    <resources>
+        <resource identifier="i12ace5b9f33bbe9669336315867fd732" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i12ace5b9f33bbe9669336315867fd732/assignment.html">
+            <file href="i12ace5b9f33bbe9669336315867fd732/assignment.html"/>
+            <file href="i12ace5b9f33bbe9669336315867fd732/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i418a8937886ffa4ffbe28ccf627c21f3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i418a8937886ffa4ffbe28ccf627c21f3/assignment.html">
+            <file href="i418a8937886ffa4ffbe28ccf627c21f3/assignment.html"/>
+            <file href="i418a8937886ffa4ffbe28ccf627c21f3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5cac2479a053ca2c216144b068df9183" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5cac2479a053ca2c216144b068df9183/assignment.html">
+            <file href="i5cac2479a053ca2c216144b068df9183/assignment.html"/>
+            <file href="i5cac2479a053ca2c216144b068df9183/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ibfc32848c9498062807a56d4843d6cac" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ibfc32848c9498062807a56d4843d6cac/assignment.html">
+            <file href="ibfc32848c9498062807a56d4843d6cac/assignment.html"/>
+            <file href="ibfc32848c9498062807a56d4843d6cac/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iaa7b492963a5c7a1cc37aa7a3406f60b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iaa7b492963a5c7a1cc37aa7a3406f60b/assignment.html">
+            <file href="iaa7b492963a5c7a1cc37aa7a3406f60b/assignment.html"/>
+            <file href="iaa7b492963a5c7a1cc37aa7a3406f60b/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i98d581a5710853b86a7bf04053db50e2" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i98d581a5710853b86a7bf04053db50e2/assignment.html">
+            <file href="i98d581a5710853b86a7bf04053db50e2/assignment.html"/>
+            <file href="i98d581a5710853b86a7bf04053db50e2/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iddc240a4fd12f58e424592fbc37a8c14" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iddc240a4fd12f58e424592fbc37a8c14/assignment.html">
+            <file href="iddc240a4fd12f58e424592fbc37a8c14/assignment.html"/>
+            <file href="iddc240a4fd12f58e424592fbc37a8c14/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i34464d30af8aefd4bb7505f43718c2df" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i34464d30af8aefd4bb7505f43718c2df/assignment.html">
+            <file href="i34464d30af8aefd4bb7505f43718c2df/assignment.html"/>
+            <file href="i34464d30af8aefd4bb7505f43718c2df/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i329583c55a7e10367befdac8320bf2b4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i329583c55a7e10367befdac8320bf2b4/assignment.html">
+            <file href="i329583c55a7e10367befdac8320bf2b4/assignment.html"/>
+            <file href="i329583c55a7e10367befdac8320bf2b4/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i3c21adf50e7bea0e88ac5c4aa71b6a86" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i3c21adf50e7bea0e88ac5c4aa71b6a86/assignment.html">
+            <file href="i3c21adf50e7bea0e88ac5c4aa71b6a86/assignment.html"/>
+            <file href="i3c21adf50e7bea0e88ac5c4aa71b6a86/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic524ad0602be760e3dab0b7353680f03" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic524ad0602be760e3dab0b7353680f03/assignment.html">
+            <file href="ic524ad0602be760e3dab0b7353680f03/assignment.html"/>
+            <file href="ic524ad0602be760e3dab0b7353680f03/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i365a6ee7b2627c0ce7cf7ce2951ac464" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i365a6ee7b2627c0ce7cf7ce2951ac464/assignment.html">
+            <file href="i365a6ee7b2627c0ce7cf7ce2951ac464/assignment.html"/>
+            <file href="i365a6ee7b2627c0ce7cf7ce2951ac464/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iea991f9844b42270b1f06cf25447b883" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iea991f9844b42270b1f06cf25447b883/assignment.html">
+            <file href="iea991f9844b42270b1f06cf25447b883/assignment.html"/>
+            <file href="iea991f9844b42270b1f06cf25447b883/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie71c19b5d8cce11ae4fa646e0a0d4e4d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie71c19b5d8cce11ae4fa646e0a0d4e4d/assignment.html">
+            <file href="ie71c19b5d8cce11ae4fa646e0a0d4e4d/assignment.html"/>
+            <file href="ie71c19b5d8cce11ae4fa646e0a0d4e4d/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie202af60fb9580ded5ef23e39b210461" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie202af60fb9580ded5ef23e39b210461/assignment.html">
+            <file href="ie202af60fb9580ded5ef23e39b210461/assignment.html"/>
+            <file href="ie202af60fb9580ded5ef23e39b210461/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if4066f9187809696baf9820cebd35303" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if4066f9187809696baf9820cebd35303/assignment.html">
+            <file href="if4066f9187809696baf9820cebd35303/assignment.html"/>
+            <file href="if4066f9187809696baf9820cebd35303/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib73383cb605f64bf56792695a1455902" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib73383cb605f64bf56792695a1455902/assignment.html">
+            <file href="ib73383cb605f64bf56792695a1455902/assignment.html"/>
+            <file href="ib73383cb605f64bf56792695a1455902/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i82bd0a37eadf578c666719ff20a3060f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i82bd0a37eadf578c666719ff20a3060f/assignment.html">
+            <file href="i82bd0a37eadf578c666719ff20a3060f/assignment.html"/>
+            <file href="i82bd0a37eadf578c666719ff20a3060f/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7e278820cff71dda44d9054398640c65" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7e278820cff71dda44d9054398640c65/assignment.html">
+            <file href="i7e278820cff71dda44d9054398640c65/assignment.html"/>
+            <file href="i7e278820cff71dda44d9054398640c65/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ieca6813f55c83f240c9a46f18487a6ad" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ieca6813f55c83f240c9a46f18487a6ad/assignment.html">
+            <file href="ieca6813f55c83f240c9a46f18487a6ad/assignment.html"/>
+            <file href="ieca6813f55c83f240c9a46f18487a6ad/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i30b65ea0c369798d62e20bda8b71622e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i30b65ea0c369798d62e20bda8b71622e/assignment.html">
+            <file href="i30b65ea0c369798d62e20bda8b71622e/assignment.html"/>
+            <file href="i30b65ea0c369798d62e20bda8b71622e/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i941fe7c6342b004faba80a154a9e9295" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i941fe7c6342b004faba80a154a9e9295/assignment.html">
+            <file href="i941fe7c6342b004faba80a154a9e9295/assignment.html"/>
+            <file href="i941fe7c6342b004faba80a154a9e9295/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i30b777c5c5733db1e92d981e659beff3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i30b777c5c5733db1e92d981e659beff3/assignment.html">
+            <file href="i30b777c5c5733db1e92d981e659beff3/assignment.html"/>
+            <file href="i30b777c5c5733db1e92d981e659beff3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="id61ac6525df0946271cbc4231fc616f6" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="id61ac6525df0946271cbc4231fc616f6/assignment.html">
+            <file href="id61ac6525df0946271cbc4231fc616f6/assignment.html"/>
+            <file href="id61ac6525df0946271cbc4231fc616f6/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4fef4149ce33b928338ce8f1c16d14b3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4fef4149ce33b928338ce8f1c16d14b3/assignment.html">
+            <file href="i4fef4149ce33b928338ce8f1c16d14b3/assignment.html"/>
+            <file href="i4fef4149ce33b928338ce8f1c16d14b3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if29a0ff1d302d549a769ca95717fedbc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if29a0ff1d302d549a769ca95717fedbc/assignment.html">
+            <file href="if29a0ff1d302d549a769ca95717fedbc/assignment.html"/>
+            <file href="if29a0ff1d302d549a769ca95717fedbc/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib099a42c7f1db35e89a61ac1f530a1b7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib099a42c7f1db35e89a61ac1f530a1b7/assignment.html">
+            <file href="ib099a42c7f1db35e89a61ac1f530a1b7/assignment.html"/>
+            <file href="ib099a42c7f1db35e89a61ac1f530a1b7/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i87387dd1e9a650d1468b06966851efaf" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i87387dd1e9a650d1468b06966851efaf/assignment.html">
+            <file href="i87387dd1e9a650d1468b06966851efaf/assignment.html"/>
+            <file href="i87387dd1e9a650d1468b06966851efaf/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i53e7cccf9469ebf15df6dbd7055022b0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i53e7cccf9469ebf15df6dbd7055022b0/assignment.html">
+            <file href="i53e7cccf9469ebf15df6dbd7055022b0/assignment.html"/>
+            <file href="i53e7cccf9469ebf15df6dbd7055022b0/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i74731f9e1332919fa52f3b58a86a06d4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i74731f9e1332919fa52f3b58a86a06d4/assignment.html">
+            <file href="i74731f9e1332919fa52f3b58a86a06d4/assignment.html"/>
+            <file href="i74731f9e1332919fa52f3b58a86a06d4/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i04e95803a2b95632f49bad1017593cbc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i04e95803a2b95632f49bad1017593cbc/assignment.html">
+            <file href="i04e95803a2b95632f49bad1017593cbc/assignment.html"/>
+            <file href="i04e95803a2b95632f49bad1017593cbc/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if0fe06d8f5393dacb993969b5b9e10fc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if0fe06d8f5393dacb993969b5b9e10fc/assignment.html">
+            <file href="if0fe06d8f5393dacb993969b5b9e10fc/assignment.html"/>
+            <file href="if0fe06d8f5393dacb993969b5b9e10fc/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7a733e86d65cc15fbb42e0f63b38d0bf" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7a733e86d65cc15fbb42e0f63b38d0bf/assignment.html">
+            <file href="i7a733e86d65cc15fbb42e0f63b38d0bf/assignment.html"/>
+            <file href="i7a733e86d65cc15fbb42e0f63b38d0bf/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie9340f7bc1b3d5bb81aa727262fe3915" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie9340f7bc1b3d5bb81aa727262fe3915/assignment.html">
+            <file href="ie9340f7bc1b3d5bb81aa727262fe3915/assignment.html"/>
+            <file href="ie9340f7bc1b3d5bb81aa727262fe3915/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i885a857c492a6a058ab4a17b7ce3ed57" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i885a857c492a6a058ab4a17b7ce3ed57/assignment.html">
+            <file href="i885a857c492a6a058ab4a17b7ce3ed57/assignment.html"/>
+            <file href="i885a857c492a6a058ab4a17b7ce3ed57/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i34909485cfce437235bffc51438c2da7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i34909485cfce437235bffc51438c2da7/assignment.html">
+            <file href="i34909485cfce437235bffc51438c2da7/assignment.html"/>
+            <file href="i34909485cfce437235bffc51438c2da7/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie4174dcccc3a35f8d1d9fab4130619f8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie4174dcccc3a35f8d1d9fab4130619f8/assignment.html">
+            <file href="ie4174dcccc3a35f8d1d9fab4130619f8/assignment.html"/>
+            <file href="ie4174dcccc3a35f8d1d9fab4130619f8/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie093e233fff57eb2a87aea9c108eab03" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie093e233fff57eb2a87aea9c108eab03/assignment.html">
+            <file href="ie093e233fff57eb2a87aea9c108eab03/assignment.html"/>
+            <file href="ie093e233fff57eb2a87aea9c108eab03/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5a478614a3d54c1c2a205cf6d59eeaac" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5a478614a3d54c1c2a205cf6d59eeaac/assignment.html">
+            <file href="i5a478614a3d54c1c2a205cf6d59eeaac/assignment.html"/>
+            <file href="i5a478614a3d54c1c2a205cf6d59eeaac/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iae3bc69901716c04907ffda44c862ecb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iae3bc69901716c04907ffda44c862ecb/assignment.html">
+            <file href="iae3bc69901716c04907ffda44c862ecb/assignment.html"/>
+            <file href="iae3bc69901716c04907ffda44c862ecb/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i642998877b8cc7fd60c650ef8fe55b65" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i642998877b8cc7fd60c650ef8fe55b65/assignment.html">
+            <file href="i642998877b8cc7fd60c650ef8fe55b65/assignment.html"/>
+            <file href="i642998877b8cc7fd60c650ef8fe55b65/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib9a5bcd451468bcc335937dd77f37695" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib9a5bcd451468bcc335937dd77f37695/assignment.html">
+            <file href="ib9a5bcd451468bcc335937dd77f37695/assignment.html"/>
+            <file href="ib9a5bcd451468bcc335937dd77f37695/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5c0e4aa748e69ae60841f76b4371a8fd" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5c0e4aa748e69ae60841f76b4371a8fd/assignment.html">
+            <file href="i5c0e4aa748e69ae60841f76b4371a8fd/assignment.html"/>
+            <file href="i5c0e4aa748e69ae60841f76b4371a8fd/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4c8bdc43c6fcb26a59350e9daa6fc26a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4c8bdc43c6fcb26a59350e9daa6fc26a/assignment.html">
+            <file href="i4c8bdc43c6fcb26a59350e9daa6fc26a/assignment.html"/>
+            <file href="i4c8bdc43c6fcb26a59350e9daa6fc26a/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i51adf654e832fc5be8df7dfe37f78b9a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i51adf654e832fc5be8df7dfe37f78b9a/assignment.html">
+            <file href="i51adf654e832fc5be8df7dfe37f78b9a/assignment.html"/>
+            <file href="i51adf654e832fc5be8df7dfe37f78b9a/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i2394fdc14b0855a38f652e5f87c25319" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i2394fdc14b0855a38f652e5f87c25319/assignment.html">
+            <file href="i2394fdc14b0855a38f652e5f87c25319/assignment.html"/>
+            <file href="i2394fdc14b0855a38f652e5f87c25319/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i54223550d4933633d0e03050df3a8892" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i54223550d4933633d0e03050df3a8892/assignment.html">
+            <file href="i54223550d4933633d0e03050df3a8892/assignment.html"/>
+            <file href="i54223550d4933633d0e03050df3a8892/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i945a1d17c0cba52048d8871fb733f618" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i945a1d17c0cba52048d8871fb733f618/assignment.html">
+            <file href="i945a1d17c0cba52048d8871fb733f618/assignment.html"/>
+            <file href="i945a1d17c0cba52048d8871fb733f618/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i9cb6cbc0de9eb5b363bffb8fbbdc0c32" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i9cb6cbc0de9eb5b363bffb8fbbdc0c32/assignment.html">
+            <file href="i9cb6cbc0de9eb5b363bffb8fbbdc0c32/assignment.html"/>
+            <file href="i9cb6cbc0de9eb5b363bffb8fbbdc0c32/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i728a9e31b8c429f60c7ace75bc63db5c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i728a9e31b8c429f60c7ace75bc63db5c/assignment.html">
+            <file href="i728a9e31b8c429f60c7ace75bc63db5c/assignment.html"/>
+            <file href="i728a9e31b8c429f60c7ace75bc63db5c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i0aa54cd7ea4828d87f7744c441bea67d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i0aa54cd7ea4828d87f7744c441bea67d/assignment.html">
+            <file href="i0aa54cd7ea4828d87f7744c441bea67d/assignment.html"/>
+            <file href="i0aa54cd7ea4828d87f7744c441bea67d/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i6e3c51da89f477b34cf2a3c9eecc3dc7" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i6e3c51da89f477b34cf2a3c9eecc3dc7/assignment.html">
+            <file href="i6e3c51da89f477b34cf2a3c9eecc3dc7/assignment.html"/>
+            <file href="i6e3c51da89f477b34cf2a3c9eecc3dc7/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i20179b57b072ef4910c45ed55bab8e35" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i20179b57b072ef4910c45ed55bab8e35/assignment.html">
+            <file href="i20179b57b072ef4910c45ed55bab8e35/assignment.html"/>
+            <file href="i20179b57b072ef4910c45ed55bab8e35/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i6c5a353180b12947ed34864599244642" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i6c5a353180b12947ed34864599244642/assignment.html">
+            <file href="i6c5a353180b12947ed34864599244642/assignment.html"/>
+            <file href="i6c5a353180b12947ed34864599244642/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i6f5b12c0b5d426db39c23899e93e2878" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i6f5b12c0b5d426db39c23899e93e2878/assignment.html">
+            <file href="i6f5b12c0b5d426db39c23899e93e2878/assignment.html"/>
+            <file href="i6f5b12c0b5d426db39c23899e93e2878/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if98b9853641cb7668bdfd31c930d0bbb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if98b9853641cb7668bdfd31c930d0bbb/assignment.html">
+            <file href="if98b9853641cb7668bdfd31c930d0bbb/assignment.html"/>
+            <file href="if98b9853641cb7668bdfd31c930d0bbb/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iab38996fe64dc34fc9852677b26b3a52" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iab38996fe64dc34fc9852677b26b3a52/assignment.html">
+            <file href="iab38996fe64dc34fc9852677b26b3a52/assignment.html"/>
+            <file href="iab38996fe64dc34fc9852677b26b3a52/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if8fcd3f85de09b7d8d39834058385728" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if8fcd3f85de09b7d8d39834058385728/assignment.html">
+            <file href="if8fcd3f85de09b7d8d39834058385728/assignment.html"/>
+            <file href="if8fcd3f85de09b7d8d39834058385728/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i43846bddae777e3b5a2298b9993e688c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i43846bddae777e3b5a2298b9993e688c/assignment.html">
+            <file href="i43846bddae777e3b5a2298b9993e688c/assignment.html"/>
+            <file href="i43846bddae777e3b5a2298b9993e688c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if7ddcabc42a8eebea6f568b33000c83c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if7ddcabc42a8eebea6f568b33000c83c/assignment.html">
+            <file href="if7ddcabc42a8eebea6f568b33000c83c/assignment.html"/>
+            <file href="if7ddcabc42a8eebea6f568b33000c83c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i58171f244f8245028625e4c70378aaed" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i58171f244f8245028625e4c70378aaed/assignment.html">
+            <file href="i58171f244f8245028625e4c70378aaed/assignment.html"/>
+            <file href="i58171f244f8245028625e4c70378aaed/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i74edcd932b3628f05b3ed385b4175cac" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i74edcd932b3628f05b3ed385b4175cac/assignment.html">
+            <file href="i74edcd932b3628f05b3ed385b4175cac/assignment.html"/>
+            <file href="i74edcd932b3628f05b3ed385b4175cac/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4ed264754884aeef1436774c252fb48d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4ed264754884aeef1436774c252fb48d/assignment.html">
+            <file href="i4ed264754884aeef1436774c252fb48d/assignment.html"/>
+            <file href="i4ed264754884aeef1436774c252fb48d/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i196bf558033d41cb620e18b97d9e4080" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i196bf558033d41cb620e18b97d9e4080/assignment.html">
+            <file href="i196bf558033d41cb620e18b97d9e4080/assignment.html"/>
+            <file href="i196bf558033d41cb620e18b97d9e4080/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ifc0aee3051a4e80570f2c44dbc6bc3f4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ifc0aee3051a4e80570f2c44dbc6bc3f4/assignment.html">
+            <file href="ifc0aee3051a4e80570f2c44dbc6bc3f4/assignment.html"/>
+            <file href="ifc0aee3051a4e80570f2c44dbc6bc3f4/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic682f349e448bda537bc5504cb1b8d91" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic682f349e448bda537bc5504cb1b8d91/assignment.html">
+            <file href="ic682f349e448bda537bc5504cb1b8d91/assignment.html"/>
+            <file href="ic682f349e448bda537bc5504cb1b8d91/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4160b4aa8094463a8af3b9fc844b4de4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4160b4aa8094463a8af3b9fc844b4de4/assignment.html">
+            <file href="i4160b4aa8094463a8af3b9fc844b4de4/assignment.html"/>
+            <file href="i4160b4aa8094463a8af3b9fc844b4de4/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7bd87a86f4a8989fa2f934888beff867" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7bd87a86f4a8989fa2f934888beff867/assignment.html">
+            <file href="i7bd87a86f4a8989fa2f934888beff867/assignment.html"/>
+            <file href="i7bd87a86f4a8989fa2f934888beff867/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i61990933adcd9d7dfd60e6d0d48e2701" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i61990933adcd9d7dfd60e6d0d48e2701/assignment.html">
+            <file href="i61990933adcd9d7dfd60e6d0d48e2701/assignment.html"/>
+            <file href="i61990933adcd9d7dfd60e6d0d48e2701/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i841fac5ed55da9db591d003859f2ca77" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i841fac5ed55da9db591d003859f2ca77/assignment.html">
+            <file href="i841fac5ed55da9db591d003859f2ca77/assignment.html"/>
+            <file href="i841fac5ed55da9db591d003859f2ca77/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib952d602116e959a2c4eb536ee34c8eb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib952d602116e959a2c4eb536ee34c8eb/assignment.html">
+            <file href="ib952d602116e959a2c4eb536ee34c8eb/assignment.html"/>
+            <file href="ib952d602116e959a2c4eb536ee34c8eb/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="id22350f8fe7620e0330b08196a7b0114" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="id22350f8fe7620e0330b08196a7b0114/assignment.html">
+            <file href="id22350f8fe7620e0330b08196a7b0114/assignment.html"/>
+            <file href="id22350f8fe7620e0330b08196a7b0114/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5359787d4c1d25a9c7b9322884e5a0fa" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5359787d4c1d25a9c7b9322884e5a0fa/assignment.html">
+            <file href="i5359787d4c1d25a9c7b9322884e5a0fa/assignment.html"/>
+            <file href="i5359787d4c1d25a9c7b9322884e5a0fa/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7d84a070c1bbcb21f832b64939b32932" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7d84a070c1bbcb21f832b64939b32932/assignment.html">
+            <file href="i7d84a070c1bbcb21f832b64939b32932/assignment.html"/>
+            <file href="i7d84a070c1bbcb21f832b64939b32932/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i840ceb3f02d4e588480683dd1becc77c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i840ceb3f02d4e588480683dd1becc77c/assignment.html">
+            <file href="i840ceb3f02d4e588480683dd1becc77c/assignment.html"/>
+            <file href="i840ceb3f02d4e588480683dd1becc77c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ice7978a2f00bdb0c467a81f9145bcf76" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ice7978a2f00bdb0c467a81f9145bcf76/assignment.html">
+            <file href="ice7978a2f00bdb0c467a81f9145bcf76/assignment.html"/>
+            <file href="ice7978a2f00bdb0c467a81f9145bcf76/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie02a7160e841519bfa5868361e3e60da" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie02a7160e841519bfa5868361e3e60da/assignment.html">
+            <file href="ie02a7160e841519bfa5868361e3e60da/assignment.html"/>
+            <file href="ie02a7160e841519bfa5868361e3e60da/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5108ca85f447c80c5f688b82cbaec7ac" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5108ca85f447c80c5f688b82cbaec7ac/assignment.html">
+            <file href="i5108ca85f447c80c5f688b82cbaec7ac/assignment.html"/>
+            <file href="i5108ca85f447c80c5f688b82cbaec7ac/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i450e106445f71f0070e52aa21787a817" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i450e106445f71f0070e52aa21787a817/assignment.html">
+            <file href="i450e106445f71f0070e52aa21787a817/assignment.html"/>
+            <file href="i450e106445f71f0070e52aa21787a817/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ieef6d2715d5d8a0d58ccfe3c5b6c7d29" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ieef6d2715d5d8a0d58ccfe3c5b6c7d29/assignment.html">
+            <file href="ieef6d2715d5d8a0d58ccfe3c5b6c7d29/assignment.html"/>
+            <file href="ieef6d2715d5d8a0d58ccfe3c5b6c7d29/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib75ed36b1f7ea2490e7442e389b91f6c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib75ed36b1f7ea2490e7442e389b91f6c/assignment.html">
+            <file href="ib75ed36b1f7ea2490e7442e389b91f6c/assignment.html"/>
+            <file href="ib75ed36b1f7ea2490e7442e389b91f6c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic125f17c8806d7f39689604ba36677a9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic125f17c8806d7f39689604ba36677a9/assignment.html">
+            <file href="ic125f17c8806d7f39689604ba36677a9/assignment.html"/>
+            <file href="ic125f17c8806d7f39689604ba36677a9/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ifbc05797f47066e53f20ab681e8d0421" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ifbc05797f47066e53f20ab681e8d0421/assignment.html">
+            <file href="ifbc05797f47066e53f20ab681e8d0421/assignment.html"/>
+            <file href="ifbc05797f47066e53f20ab681e8d0421/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia4aa9bf75c31a55a7780fcbd7c53194b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia4aa9bf75c31a55a7780fcbd7c53194b/assignment.html">
+            <file href="ia4aa9bf75c31a55a7780fcbd7c53194b/assignment.html"/>
+            <file href="ia4aa9bf75c31a55a7780fcbd7c53194b/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia37803360a5c336b234e9d5c086c895c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia37803360a5c336b234e9d5c086c895c/assignment.html">
+            <file href="ia37803360a5c336b234e9d5c086c895c/assignment.html"/>
+            <file href="ia37803360a5c336b234e9d5c086c895c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4825d8e26400a53e5388739c628a7460" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4825d8e26400a53e5388739c628a7460/assignment.html">
+            <file href="i4825d8e26400a53e5388739c628a7460/assignment.html"/>
+            <file href="i4825d8e26400a53e5388739c628a7460/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if3e4db5db53a5119396547cfca1f3830" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if3e4db5db53a5119396547cfca1f3830/assignment.html">
+            <file href="if3e4db5db53a5119396547cfca1f3830/assignment.html"/>
+            <file href="if3e4db5db53a5119396547cfca1f3830/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i2a10add0c86021ba7f664e1cc9417ad3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i2a10add0c86021ba7f664e1cc9417ad3/assignment.html">
+            <file href="i2a10add0c86021ba7f664e1cc9417ad3/assignment.html"/>
+            <file href="i2a10add0c86021ba7f664e1cc9417ad3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia81944d8ccd5daff66eabdc0d9a4b8b6" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia81944d8ccd5daff66eabdc0d9a4b8b6/assignment.html">
+            <file href="ia81944d8ccd5daff66eabdc0d9a4b8b6/assignment.html"/>
+            <file href="ia81944d8ccd5daff66eabdc0d9a4b8b6/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i9f0800be2a1082544683ff07f46cf6b3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i9f0800be2a1082544683ff07f46cf6b3/assignment.html">
+            <file href="i9f0800be2a1082544683ff07f46cf6b3/assignment.html"/>
+            <file href="i9f0800be2a1082544683ff07f46cf6b3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i76de42c218e699922e71cfc67db5ba70" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i76de42c218e699922e71cfc67db5ba70/assignment.html">
+            <file href="i76de42c218e699922e71cfc67db5ba70/assignment.html"/>
+            <file href="i76de42c218e699922e71cfc67db5ba70/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia091c41471ed8c37277fbaeb6add3350" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia091c41471ed8c37277fbaeb6add3350/assignment.html">
+            <file href="ia091c41471ed8c37277fbaeb6add3350/assignment.html"/>
+            <file href="ia091c41471ed8c37277fbaeb6add3350/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if34fae66090dd7a58b85d53a2fe2c088" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if34fae66090dd7a58b85d53a2fe2c088/assignment.html">
+            <file href="if34fae66090dd7a58b85d53a2fe2c088/assignment.html"/>
+            <file href="if34fae66090dd7a58b85d53a2fe2c088/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iad4e2dd60446a19f30b4c683451d6863" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iad4e2dd60446a19f30b4c683451d6863/assignment.html">
+            <file href="iad4e2dd60446a19f30b4c683451d6863/assignment.html"/>
+            <file href="iad4e2dd60446a19f30b4c683451d6863/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if762b986e3a6d55eb35495af8595bb22" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if762b986e3a6d55eb35495af8595bb22/assignment.html">
+            <file href="if762b986e3a6d55eb35495af8595bb22/assignment.html"/>
+            <file href="if762b986e3a6d55eb35495af8595bb22/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie1ee1ae405aae2067075e9670b654c70" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie1ee1ae405aae2067075e9670b654c70/assignment.html">
+            <file href="ie1ee1ae405aae2067075e9670b654c70/assignment.html"/>
+            <file href="ie1ee1ae405aae2067075e9670b654c70/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie3d5a906fa9a10fc1acef6f2401b0fbb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie3d5a906fa9a10fc1acef6f2401b0fbb/assignment.html">
+            <file href="ie3d5a906fa9a10fc1acef6f2401b0fbb/assignment.html"/>
+            <file href="ie3d5a906fa9a10fc1acef6f2401b0fbb/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ibc71a9551f19acd6ebfd51cb2bfd19dc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ibc71a9551f19acd6ebfd51cb2bfd19dc/assignment.html">
+            <file href="ibc71a9551f19acd6ebfd51cb2bfd19dc/assignment.html"/>
+            <file href="ibc71a9551f19acd6ebfd51cb2bfd19dc/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i88902a963b789ce4a71c94641de71ce6" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i88902a963b789ce4a71c94641de71ce6/assignment.html">
+            <file href="i88902a963b789ce4a71c94641de71ce6/assignment.html"/>
+            <file href="i88902a963b789ce4a71c94641de71ce6/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i539332928a10867d602d0c90af0fa564" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i539332928a10867d602d0c90af0fa564/assignment.html">
+            <file href="i539332928a10867d602d0c90af0fa564/assignment.html"/>
+            <file href="i539332928a10867d602d0c90af0fa564/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib2804dd7d0c29b393191886920645fea" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib2804dd7d0c29b393191886920645fea/assignment.html">
+            <file href="ib2804dd7d0c29b393191886920645fea/assignment.html"/>
+            <file href="ib2804dd7d0c29b393191886920645fea/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i8687bf8dff00267ddc65a482da8b308e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i8687bf8dff00267ddc65a482da8b308e/assignment.html">
+            <file href="i8687bf8dff00267ddc65a482da8b308e/assignment.html"/>
+            <file href="i8687bf8dff00267ddc65a482da8b308e/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="idf482072a77c919ab8b68acde757786d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="idf482072a77c919ab8b68acde757786d/assignment.html">
+            <file href="idf482072a77c919ab8b68acde757786d/assignment.html"/>
+            <file href="idf482072a77c919ab8b68acde757786d/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="id63f03a8dae794c5bc274a72e66ba122" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="id63f03a8dae794c5bc274a72e66ba122/assignment.html">
+            <file href="id63f03a8dae794c5bc274a72e66ba122/assignment.html"/>
+            <file href="id63f03a8dae794c5bc274a72e66ba122/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i6f94acaece366de051ec7f304b323e45" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i6f94acaece366de051ec7f304b323e45/assignment.html">
+            <file href="i6f94acaece366de051ec7f304b323e45/assignment.html"/>
+            <file href="i6f94acaece366de051ec7f304b323e45/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7ef51b829a5cec8d0daa727f61bae312" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7ef51b829a5cec8d0daa727f61bae312/assignment.html">
+            <file href="i7ef51b829a5cec8d0daa727f61bae312/assignment.html"/>
+            <file href="i7ef51b829a5cec8d0daa727f61bae312/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i23ea467fe66368dcef55eaf263468039" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i23ea467fe66368dcef55eaf263468039/assignment.html">
+            <file href="i23ea467fe66368dcef55eaf263468039/assignment.html"/>
+            <file href="i23ea467fe66368dcef55eaf263468039/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i20e04fe80a0f486a14c381e5d189db4a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i20e04fe80a0f486a14c381e5d189db4a/assignment.html">
+            <file href="i20e04fe80a0f486a14c381e5d189db4a/assignment.html"/>
+            <file href="i20e04fe80a0f486a14c381e5d189db4a/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ibd042447dbb53065aaff7463a57c35c0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ibd042447dbb53065aaff7463a57c35c0/assignment.html">
+            <file href="ibd042447dbb53065aaff7463a57c35c0/assignment.html"/>
+            <file href="ibd042447dbb53065aaff7463a57c35c0/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i2006324e0e49418b8b5c413d8d153bab" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i2006324e0e49418b8b5c413d8d153bab/assignment.html">
+            <file href="i2006324e0e49418b8b5c413d8d153bab/assignment.html"/>
+            <file href="i2006324e0e49418b8b5c413d8d153bab/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5c106f4ea69bc659b105eb3814f00854" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5c106f4ea69bc659b105eb3814f00854/assignment.html">
+            <file href="i5c106f4ea69bc659b105eb3814f00854/assignment.html"/>
+            <file href="i5c106f4ea69bc659b105eb3814f00854/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia22ede34bef14e22c3b464c67d555350" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia22ede34bef14e22c3b464c67d555350/assignment.html">
+            <file href="ia22ede34bef14e22c3b464c67d555350/assignment.html"/>
+            <file href="ia22ede34bef14e22c3b464c67d555350/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="icda0b4b0a7905a1275323abab34d3b75" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="icda0b4b0a7905a1275323abab34d3b75/assignment.html">
+            <file href="icda0b4b0a7905a1275323abab34d3b75/assignment.html"/>
+            <file href="icda0b4b0a7905a1275323abab34d3b75/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i822b16aa60a91d40121ce41ad5a16c0a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i822b16aa60a91d40121ce41ad5a16c0a/assignment.html">
+            <file href="i822b16aa60a91d40121ce41ad5a16c0a/assignment.html"/>
+            <file href="i822b16aa60a91d40121ce41ad5a16c0a/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic2cc100ebc6786a267ef414d6913a00d" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic2cc100ebc6786a267ef414d6913a00d/assignment.html">
+            <file href="ic2cc100ebc6786a267ef414d6913a00d/assignment.html"/>
+            <file href="ic2cc100ebc6786a267ef414d6913a00d/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i8764e286ba60c122f9d457c7007cdc67" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i8764e286ba60c122f9d457c7007cdc67/assignment.html">
+            <file href="i8764e286ba60c122f9d457c7007cdc67/assignment.html"/>
+            <file href="i8764e286ba60c122f9d457c7007cdc67/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if49c62e521dabab3b5f0a97f0c5c47b1" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if49c62e521dabab3b5f0a97f0c5c47b1/assignment.html">
+            <file href="if49c62e521dabab3b5f0a97f0c5c47b1/assignment.html"/>
+            <file href="if49c62e521dabab3b5f0a97f0c5c47b1/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i52aacafefdb171017f70979e77dc08e9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i52aacafefdb171017f70979e77dc08e9/assignment.html">
+            <file href="i52aacafefdb171017f70979e77dc08e9/assignment.html"/>
+            <file href="i52aacafefdb171017f70979e77dc08e9/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i64f93c4ca1a5c91f4c42ac59beaa6135" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i64f93c4ca1a5c91f4c42ac59beaa6135/assignment.html">
+            <file href="i64f93c4ca1a5c91f4c42ac59beaa6135/assignment.html"/>
+            <file href="i64f93c4ca1a5c91f4c42ac59beaa6135/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7c683c7e52ae787770a6481f161ff43e" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7c683c7e52ae787770a6481f161ff43e/assignment.html">
+            <file href="i7c683c7e52ae787770a6481f161ff43e/assignment.html"/>
+            <file href="i7c683c7e52ae787770a6481f161ff43e/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i9ad2a9055e576212a901e3705f24b7d0" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i9ad2a9055e576212a901e3705f24b7d0/assignment.html">
+            <file href="i9ad2a9055e576212a901e3705f24b7d0/assignment.html"/>
+            <file href="i9ad2a9055e576212a901e3705f24b7d0/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i323f0ad33e4b9e1fde12200fb57fe00b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i323f0ad33e4b9e1fde12200fb57fe00b/assignment.html">
+            <file href="i323f0ad33e4b9e1fde12200fb57fe00b/assignment.html"/>
+            <file href="i323f0ad33e4b9e1fde12200fb57fe00b/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib06b359378032c2b6eaa73224e345511" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib06b359378032c2b6eaa73224e345511/assignment.html">
+            <file href="ib06b359378032c2b6eaa73224e345511/assignment.html"/>
+            <file href="ib06b359378032c2b6eaa73224e345511/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i7fd75d87c9f69c80b177de49ec60912f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i7fd75d87c9f69c80b177de49ec60912f/assignment.html">
+            <file href="i7fd75d87c9f69c80b177de49ec60912f/assignment.html"/>
+            <file href="i7fd75d87c9f69c80b177de49ec60912f/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i29ca7ae2315e80170b624ccbc3179e94" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i29ca7ae2315e80170b624ccbc3179e94/assignment.html">
+            <file href="i29ca7ae2315e80170b624ccbc3179e94/assignment.html"/>
+            <file href="i29ca7ae2315e80170b624ccbc3179e94/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i6f4835cdc85374b05272bd30e05fa4b4" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i6f4835cdc85374b05272bd30e05fa4b4/assignment.html">
+            <file href="i6f4835cdc85374b05272bd30e05fa4b4/assignment.html"/>
+            <file href="i6f4835cdc85374b05272bd30e05fa4b4/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="id24196820a4874f09f8f791c7a3b5527" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="id24196820a4874f09f8f791c7a3b5527/assignment.html">
+            <file href="id24196820a4874f09f8f791c7a3b5527/assignment.html"/>
+            <file href="id24196820a4874f09f8f791c7a3b5527/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i66ec6e61c9d6d4ef7b2be08a82318e42" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i66ec6e61c9d6d4ef7b2be08a82318e42/assignment.html">
+            <file href="i66ec6e61c9d6d4ef7b2be08a82318e42/assignment.html"/>
+            <file href="i66ec6e61c9d6d4ef7b2be08a82318e42/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if334a9295768ec8021c3b471a664affe" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if334a9295768ec8021c3b471a664affe/assignment.html">
+            <file href="if334a9295768ec8021c3b471a664affe/assignment.html"/>
+            <file href="if334a9295768ec8021c3b471a664affe/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i87fe07d07ac517c4d4ef98016acfdda8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i87fe07d07ac517c4d4ef98016acfdda8/assignment.html">
+            <file href="i87fe07d07ac517c4d4ef98016acfdda8/assignment.html"/>
+            <file href="i87fe07d07ac517c4d4ef98016acfdda8/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia8d613959f3a2c02bd3ab9d137891c32" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia8d613959f3a2c02bd3ab9d137891c32/assignment.html">
+            <file href="ia8d613959f3a2c02bd3ab9d137891c32/assignment.html"/>
+            <file href="ia8d613959f3a2c02bd3ab9d137891c32/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i422f9a3f441248add1bac24f5c963efe" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i422f9a3f441248add1bac24f5c963efe/assignment.html">
+            <file href="i422f9a3f441248add1bac24f5c963efe/assignment.html"/>
+            <file href="i422f9a3f441248add1bac24f5c963efe/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib164240a093d4d52581fe9d3e1fcbd05" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib164240a093d4d52581fe9d3e1fcbd05/assignment.html">
+            <file href="ib164240a093d4d52581fe9d3e1fcbd05/assignment.html"/>
+            <file href="ib164240a093d4d52581fe9d3e1fcbd05/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i4efb8e8028ce9e080335d1bbe36066ed" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i4efb8e8028ce9e080335d1bbe36066ed/assignment.html">
+            <file href="i4efb8e8028ce9e080335d1bbe36066ed/assignment.html"/>
+            <file href="i4efb8e8028ce9e080335d1bbe36066ed/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i67c948724b26486d89f3d7a0184366c9" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i67c948724b26486d89f3d7a0184366c9/assignment.html">
+            <file href="i67c948724b26486d89f3d7a0184366c9/assignment.html"/>
+            <file href="i67c948724b26486d89f3d7a0184366c9/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i58c49a6ef72de5f4792738e87167d898" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i58c49a6ef72de5f4792738e87167d898/assignment.html">
+            <file href="i58c49a6ef72de5f4792738e87167d898/assignment.html"/>
+            <file href="i58c49a6ef72de5f4792738e87167d898/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="iaa416a2b283c14aa1bee367c870df52f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="iaa416a2b283c14aa1bee367c870df52f/assignment.html">
+            <file href="iaa416a2b283c14aa1bee367c870df52f/assignment.html"/>
+            <file href="iaa416a2b283c14aa1bee367c870df52f/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i3d612becdd1b14acddd2cd3ab770e8d8" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i3d612becdd1b14acddd2cd3ab770e8d8/assignment.html">
+            <file href="i3d612becdd1b14acddd2cd3ab770e8d8/assignment.html"/>
+            <file href="i3d612becdd1b14acddd2cd3ab770e8d8/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i67760ccf880fe54a74748c0535af0155" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i67760ccf880fe54a74748c0535af0155/assignment.html">
+            <file href="i67760ccf880fe54a74748c0535af0155/assignment.html"/>
+            <file href="i67760ccf880fe54a74748c0535af0155/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i27390894ae384ed8a7979e666ba8bdda" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i27390894ae384ed8a7979e666ba8bdda/assignment.html">
+            <file href="i27390894ae384ed8a7979e666ba8bdda/assignment.html"/>
+            <file href="i27390894ae384ed8a7979e666ba8bdda/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="idd8ab0dc5aeb09c2205542c452f950b2" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="idd8ab0dc5aeb09c2205542c452f950b2/assignment.html">
+            <file href="idd8ab0dc5aeb09c2205542c452f950b2/assignment.html"/>
+            <file href="idd8ab0dc5aeb09c2205542c452f950b2/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i091ff607b1463b27a11e2fc2a34cb51b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i091ff607b1463b27a11e2fc2a34cb51b/assignment.html">
+            <file href="i091ff607b1463b27a11e2fc2a34cb51b/assignment.html"/>
+            <file href="i091ff607b1463b27a11e2fc2a34cb51b/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie0f36f25ead475a26d9667473ba201df" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie0f36f25ead475a26d9667473ba201df/assignment.html">
+            <file href="ie0f36f25ead475a26d9667473ba201df/assignment.html"/>
+            <file href="ie0f36f25ead475a26d9667473ba201df/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i0ec21ba5a0e03158b1bb0cba3def1e40" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i0ec21ba5a0e03158b1bb0cba3def1e40/assignment.html">
+            <file href="i0ec21ba5a0e03158b1bb0cba3def1e40/assignment.html"/>
+            <file href="i0ec21ba5a0e03158b1bb0cba3def1e40/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i63fab61e4636e7ca9a4b4dcc829687cd" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i63fab61e4636e7ca9a4b4dcc829687cd/assignment.html">
+            <file href="i63fab61e4636e7ca9a4b4dcc829687cd/assignment.html"/>
+            <file href="i63fab61e4636e7ca9a4b4dcc829687cd/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie321c3d88f1e4d49b351069277801c29" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie321c3d88f1e4d49b351069277801c29/assignment.html">
+            <file href="ie321c3d88f1e4d49b351069277801c29/assignment.html"/>
+            <file href="ie321c3d88f1e4d49b351069277801c29/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i865153aaf7898a831daa33a2f0e191fb" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i865153aaf7898a831daa33a2f0e191fb/assignment.html">
+            <file href="i865153aaf7898a831daa33a2f0e191fb/assignment.html"/>
+            <file href="i865153aaf7898a831daa33a2f0e191fb/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic38134b562dc5c9f5697500d1eef8504" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic38134b562dc5c9f5697500d1eef8504/assignment.html">
+            <file href="ic38134b562dc5c9f5697500d1eef8504/assignment.html"/>
+            <file href="ic38134b562dc5c9f5697500d1eef8504/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i209637fb96ab8c189967b18a0c224f1b" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i209637fb96ab8c189967b18a0c224f1b/assignment.html">
+            <file href="i209637fb96ab8c189967b18a0c224f1b/assignment.html"/>
+            <file href="i209637fb96ab8c189967b18a0c224f1b/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5084b0ad491bae0571452264bb4e3c09" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5084b0ad491bae0571452264bb4e3c09/assignment.html">
+            <file href="i5084b0ad491bae0571452264bb4e3c09/assignment.html"/>
+            <file href="i5084b0ad491bae0571452264bb4e3c09/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="if4a6861a9dabed4bd3296e6f6a3cb517" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="if4a6861a9dabed4bd3296e6f6a3cb517/assignment.html">
+            <file href="if4a6861a9dabed4bd3296e6f6a3cb517/assignment.html"/>
+            <file href="if4a6861a9dabed4bd3296e6f6a3cb517/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i204e27966c47ba4c519d335c08f29fa5" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i204e27966c47ba4c519d335c08f29fa5/assignment.html">
+            <file href="i204e27966c47ba4c519d335c08f29fa5/assignment.html"/>
+            <file href="i204e27966c47ba4c519d335c08f29fa5/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie7f4603d882e9b333c5757fb4259feb3" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie7f4603d882e9b333c5757fb4259feb3/assignment.html">
+            <file href="ie7f4603d882e9b333c5757fb4259feb3/assignment.html"/>
+            <file href="ie7f4603d882e9b333c5757fb4259feb3/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i8184f6138b01ee1cb695f13879b26d88" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i8184f6138b01ee1cb695f13879b26d88/assignment.html">
+            <file href="i8184f6138b01ee1cb695f13879b26d88/assignment.html"/>
+            <file href="i8184f6138b01ee1cb695f13879b26d88/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ia52a2aa386a14d9540e1305e98372a2f" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ia52a2aa386a14d9540e1305e98372a2f/assignment.html">
+            <file href="ia52a2aa386a14d9540e1305e98372a2f/assignment.html"/>
+            <file href="ia52a2aa386a14d9540e1305e98372a2f/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="idc1ad1efdbddda65914f3fe93a977efe" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="idc1ad1efdbddda65914f3fe93a977efe/assignment.html">
+            <file href="idc1ad1efdbddda65914f3fe93a977efe/assignment.html"/>
+            <file href="idc1ad1efdbddda65914f3fe93a977efe/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ic6903795d4c500ea6f30c06c398a950a" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ic6903795d4c500ea6f30c06c398a950a/assignment.html">
+            <file href="ic6903795d4c500ea6f30c06c398a950a/assignment.html"/>
+            <file href="ic6903795d4c500ea6f30c06c398a950a/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i489eda725641bcde07216d3246c07bfa" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i489eda725641bcde07216d3246c07bfa/assignment.html">
+            <file href="i489eda725641bcde07216d3246c07bfa/assignment.html"/>
+            <file href="i489eda725641bcde07216d3246c07bfa/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ie057f588e1ec3aec4b23e95bfe21d37c" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ie057f588e1ec3aec4b23e95bfe21d37c/assignment.html">
+            <file href="ie057f588e1ec3aec4b23e95bfe21d37c/assignment.html"/>
+            <file href="ie057f588e1ec3aec4b23e95bfe21d37c/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="ib6daacdf641363ad200d267e00bebb62" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="ib6daacdf641363ad200d267e00bebb62/assignment.html">
+            <file href="ib6daacdf641363ad200d267e00bebb62/assignment.html"/>
+            <file href="ib6daacdf641363ad200d267e00bebb62/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i5865c2bcdf5c05cf89c366ccbc476b17" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i5865c2bcdf5c05cf89c366ccbc476b17/assignment.html">
+            <file href="i5865c2bcdf5c05cf89c366ccbc476b17/assignment.html"/>
+            <file href="i5865c2bcdf5c05cf89c366ccbc476b17/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+        <resource identifier="i37b4cee55de6db1c78236a6b30c26dbc" type="associatedcontent/imscc_xmlv1p1/learning-application-resource" href="i37b4cee55de6db1c78236a6b30c26dbc/assignment.html">
+            <file href="i37b4cee55de6db1c78236a6b30c26dbc/assignment.html"/>
+            <file href="i37b4cee55de6db1c78236a6b30c26dbc/assignment_settings.xml"/>
+            <dependency/>
+        </resource>
+    </resources>
+</ns2:manifest>

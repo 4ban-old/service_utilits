@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Копирование файлов и папок по yaml [find_id_content_from_yaml] &mdash; Документация Документация МЭО по внутренним утилитам 0.1</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Документация Документация МЭО по внутренним утилитам 0.1" href="index.html"/>
+        <link rel="next" title="Полуавтоматический перенос курсов [parser]" href="parser.html"/>
+        <link rel="prev" title="Кодировщик .csv [csv_encoder]" href="csv_encoder.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="csv_encoder.html">Кодировщик .csv <sup>[csv_encoder]</sup></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="parser.html">Полуавтоматический перенос курсов <sup>[parser]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="renamer.html">Транслитерация курсов <sup>[renamer]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="yamliddoubles.html">Дубликаты в .yaml <sup>[yamliddoubles]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="auto_yaml.html">Генератор yaml <sup>[auto_yaml]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="xmlmergetool.html">Слияние .xml файлов <sup>[xmlmergetool]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="all_translit.html">Транслитерация текста <sup>[all_translit]</sup></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Документация МЭО по внутренним утилитам</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/find_id_content_from_yaml.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="yaml-find-id-content-from-yaml">
+<h1>Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup><a class="headerlink" href="#yaml-find-id-content-from-yaml" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Программа отыскивает .yaml файл и находит в нем все imscc_identifier, создает папку в корне каталога COPIED_FILES, после чего рекурсивно обходит все каталоги и отыскивает папки и файлы название которых состоит из imscc_identifier. Затем копирует эти файлы и каталоги в папку COPIED_FILES.</p>
+<p>Так же указав пути к занятим, программа найдет все html файлы относящиеся к занятиям, отыщет в них ссылки на файлы в wiki_content и скопирует их в папку wiki_content в COPIED_FILES.</p>
+<div class="section" id="id1">
+<h2>Скачивание<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для скачивания программы нажмите <a class="reference external" href="_static/codes/find_if_content_from_yaml.rar">[здесь]</a></p>
+<p>Если скачивания не произошло или архив оказался битым, то скачать утилиту можно следующим способом:</p>
+<p>Зайти в репозиторий <a class="reference external" href="https://github.com/remasik/find_id_content_from_yaml">[find_id_content_from_yaml]</a></p>
+<p>Вам потребуется два файла: <strong>finder.py</strong> и <strong>finder.bat</strong></p>
+<p>Скачать их можно кликнув по каждому из файлов левой кнопкой мыши, на октырвшемся файле нажать кнопку <strong>Raw</strong> и комбинацией <strong>ctrl+s</strong> сохранить файлы в какой-нибудь папке.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Скриншоты представлены для утилиты csv_encoder. Так как набор действий одинаков, скриншоты решено оставить.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/1.png"><img alt="Альтернативный текст" src="_static/images/1.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/2.png"><img alt="Альтернативный текст" src="_static/images/2.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/3.png"><img alt="Альтернативный текст" src="_static/images/3.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/4.png"><img alt="Альтернативный текст" src="_static/images/4.png" /></a>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>Установка<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для работы приложения требуется установленный Python 2.7.x.</p>
+<p>Если его нет, то заходим на <a class="reference external" href="https://www.python.org/downloads/">[официальный сайт]</a> . Скачиваем текущую версию Python 2.7.x</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Убедитесь, что скачиваете Python версии <strong>2</strong>, а не <strong>3</strong></p>
+</div>
+<p>После загрузки запускаем установщик и следуем инструкции.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">В установщике возможно нужно будет выбрать <strong>Выборочная установка</strong> или <strong>Custom</strong>, для того, чтобы указать путь установки.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Важно, чтобы путь установки был в корень диска С, то есть путь должен выглядеть так: <strong>C:\Python27</strong>. Если вы не уверены, что сможете это сделать, позовите того, кто сможет.</p>
+</div>
+<p>Следующим шагом необходимо скачать модифицированный Python <a class="reference external" href="_static/codes/Python27.rar">[здесь]</a>, распаковать его и слить с оригинальным.</p>
+<p>Для этого нужно открыть файловый менеджер и зайти в корень диска <strong>C:\</strong>.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Зайти в Пуск -&gt; Компьютер -&gt; Локальный диск (C:)</p>
+</div>
+<p>Архив <strong>Python27.rar</strong> распаковываем на рабочий стол.</p>
+<p>После чего перетащить распакованную папку <strong>Python27</strong> в корень диска <strong>C:\</strong> и на все предложения о замене файлов и слиянии папок нужно <strong>согласиться</strong>, предварительно поставив галочки типа <em>сделать это для всех файлов и папок</em>, чтобы компьютер сделал слияние сам.</p>
+</div>
+<div class="section" id="id6">
+<h2>Использование<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для запуска утилиты кликните дважды на файл <strong>finder.bat</strong>. В верхнем поле ввода текста введите путь к курсу, как показано на рисунке.</p>
+<p>Вводить следует директории к курсу, а не занятию, например <strong>C:\Users\PK-DPI-742\Desktop\export\lit_chten_3</strong></p>
+<p>В нижнем поле ввода текста нужно вводить уже пути к занятиям, через запятую, например: <strong>C:\Users\PK-DPI-742\Desktop\export\lit_chten_3web_resources3</strong></p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Для того, чтобы комбинация клавиш <strong>ctrl+v</strong> для вставки текста работала, необходимо переключиться на английский язык.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/finder.png"><img alt="Альтернативный текст" src="_static/images/finder.png" /></a>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">не ставьте в конце пути <strong>\</strong>.</p>
+</div>
+<p>Как будете готовы - нажимайте <strong>Старт</strong>.</p>
+<p>В результате в корне курса появится папка COPIED_FILES, в которой будет лог файл, в формате html для просмотра проделанной работы, все файлы и папки скопированные согласно yaml файлу и в папке wiki_content появятся все файлы относщиеся к занятиям, которые были введены для просмотра.</p>
+</div>
+<div class="section" id="id7">
+<h2>Ошибки<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В случае появления ошибок рекомендуется обратится к разработчику. Если ошибка появится в диалоговом окне с надписью, что ее необходимо отправить разработчику, то текст ошибки можно просто отправить по электронной почте или в скайп. В случае же, если программа просто не открывается или ведет себя странно и ничего не делает, лучше обратится к разработчику.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Контактные данные разработчика находятся на главной странице. Для того, чтобы перейти туда, необходимо кликнуть на лого в верхнем левом углу.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="parser.html" class="btn btn-neutral float-right" title="Полуавтоматический перенос курсов [parser]" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="csv_encoder.html" class="btn btn-neutral" title="Кодировщик .csv [csv_encoder]" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Dmitry Kryukov.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

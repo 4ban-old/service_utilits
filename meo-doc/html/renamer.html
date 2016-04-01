@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Транслитерация курсов [renamer] &mdash; Документация Документация МЭО по внутренним утилитам 0.1</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Документация Документация МЭО по внутренним утилитам 0.1" href="index.html"/>
+        <link rel="next" title="Дубликаты в .yaml [yamliddoubles]" href="yamliddoubles.html"/>
+        <link rel="prev" title="Полуавтоматический перенос курсов [parser]" href="parser.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="csv_encoder.html">Кодировщик .csv <sup>[csv_encoder]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="find_id_content_from_yaml.html">Копирование файлов и папок по yaml <sup>[find_id_content_from_yaml]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser.html">Полуавтоматический перенос курсов <sup>[parser]</sup></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Транслитерация курсов <sup>[renamer]</sup></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Скачивание</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Установка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">Использование</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">Ошибки</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="yamliddoubles.html">Дубликаты в .yaml <sup>[yamliddoubles]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="auto_yaml.html">Генератор yaml <sup>[auto_yaml]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="xmlmergetool.html">Слияние .xml файлов <sup>[xmlmergetool]</sup></a></li>
+<li class="toctree-l1"><a class="reference internal" href="all_translit.html">Транслитерация текста <sup>[all_translit]</sup></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Документация МЭО по внутренним утилитам</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Транслитерация курсов <sup>[renamer]</sup></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/renamer.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="renamer">
+<h1>Транслитерация курсов <sup>[renamer]</sup><a class="headerlink" href="#renamer" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Программа рекурсивно переименовывает из русского в транслит все каталоги и файлы в директории, так же транслитерирует все ссылки с русскими символами в пути.</p>
+<div class="section" id="id1">
+<h2>Скачивание<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h2>
+<p>На данный ммомент есть две версии программы:</p>
+<ol class="arabic simple">
+<li><strong>v.0.1</strong> находит не все ссылки, не удаляет пробелы в именах и ссылках и не переводит разрешения в нижний регистр, однако работает стабильно</li>
+</ol>
+<p>Для скачивания программы нажмите <a class="reference external" href="_static/codes/renamer.rar">[здесь]</a></p>
+<ol class="arabic simple" start="2">
+<li><strong>v.0.2</strong> Находит все ссылки, удаляет пробелы в именах файлов, каталогов и ссылках. так же переводит разрешения файлов в нижний регистр. Однако работает не стабильно.</li>
+</ol>
+<p>Для скачивания программы нажмите <a class="reference external" href="_static/codes/renamer_v.0.2.rar">[здесь]</a></p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">В репозитории находится последняя версия, то есть <strong>v.0.2</strong> Будьте внимательней.</p>
+</div>
+<p>Если скачивания не произошло или архив оказался битым, то скачать утилиту можно следующим способом:</p>
+<p>Зайти в репозиторий <a class="reference external" href="https://github.com/remasik/renamer">[renamer]</a></p>
+<div class="admonition error">
+<p class="first admonition-title">Ошибка</p>
+<p class="last">Для этой программы требуется файл с нахванием <strong>renamer_gui.py</strong>. Файл renamer.py содержит версию без интерфейса.</p>
+</div>
+<p>Вам потребуется два файла: <strong>renamer_gui.py</strong> и <strong>renamer.bat</strong></p>
+<p>Скачать их можно кликнув по каждому из файлов левой кнопкой мыши, на октырвшемся файле нажать кнопку <strong>Raw</strong> и комбинацией <strong>ctrl+s</strong> сохранить файлы в какой-нибудь папке.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Скриншоты представлены для утилиты csv_encoder. Так как набор действий одинаков, скриншоты решено оставить.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/1.png"><img alt="Альтернативный текст" src="_static/images/1.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/2.png"><img alt="Альтернативный текст" src="_static/images/2.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/3.png"><img alt="Альтернативный текст" src="_static/images/3.png" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/4.png"><img alt="Альтернативный текст" src="_static/images/4.png" /></a>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>Установка<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Эта утилита, в отличие от других, требует установленного Python версии 3, будтье внимательней при установке.</p>
+</div>
+<p>Для работы приложения требуется установленный Python 3.5.x.</p>
+<p>Если его нет, то заходим на <a class="reference external" href="https://www.python.org/downloads/">[официальный сайт]</a> . Скачиваем текущую версию Python 3.5.x</p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Убедитесь, что скачиваете Python версии <strong>3</strong>, а не <strong>2</strong></p>
+</div>
+<p>После загрузки запускаем установщик и следуем инструкции.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">В установщике возможно нужно будет выбрать <strong>Выборочная установка</strong> или <strong>Custom</strong>, для того, чтобы указать путь установки.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Важно, чтобы путь установки был в корень диска С, то есть путь должен выглядеть так: <strong>C:\Python35</strong>. Если вы не уверены, что сможете это сделать, позовите того, кто сможет.</p>
+</div>
+<p>Следующим шагом необходимо скачать модифицированный Python <a class="reference external" href="_static/codes/Python35.rar">[здесь]</a>, распаковать его и слить с оригинальным.</p>
+<p>Для этого нужно открыть файловый менеджер и зайти в корень диска <strong>C:\</strong>.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Зайти в Пуск -&gt; Компьютер -&gt; Локальный диск (C:)</p>
+</div>
+<p>Архив <strong>Python35.rar</strong> распаковываем на рабочий стол.</p>
+<p>После чего перетащить распакованную папку <strong>Python35</strong> в корень диска <strong>C:\</strong> и на все предложения о замене файлов и слиянии папок нужно <strong>согласиться</strong>, предварительно поставив галочки типа <em>сделать это для всех файлов и папок</em>, чтобы компьютер сделал слияние сам.</p>
+</div>
+<div class="section" id="id8">
+<h2>Использование<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для запуска утилиты кликните дважды на файл <strong>renamer.bat</strong>.</p>
+<p>В поле ввода текста через запятую вводите интересующие вас директории как показано на рисунке.</p>
+<p>Следует вводить пути к курсам, а не к занятиям. например <strong>C:\Users\PK-DPI-742\Desktop\export\lit_chten_3</strong></p>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">Для того, чтобы комбинация клавиш <strong>ctrl+v</strong> для вставки текста работала, необходимо переключиться на английский язык.</p>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_static/images/renamer.png"><img alt="Альтернативный текст" src="_static/images/renamer.png" /></a>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Предупреждение</p>
+<p class="last">не ставьте в конце пути \.</p>
+</div>
+<p>Как будете готовы, нажимайте <strong>Старт</strong>.</p>
+<p>Программа создает каталог res в каждой указанной директории, где лежит .html лог файл с описанием проделанной работы.</p>
+</div>
+<div class="section" id="id9">
+<h2>Ошибки<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В случае появления ошибок рекомендуется обратится к разработчику. Если ошибка появится в диалоговом окне с надписью, что ее необходимо отправить разработчику, то текст ошибки можно просто отправить по электронной почте или в скайп. В случае же, если программа просто не открывается или ведет себя странно и ничего не делает, лучше обратится к разработчику.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Подсказка</p>
+<p class="last">Контактные данные разработчика находятся на главной странице. Для того, чтобы перейти туда, необходимо кликнуть на лого в верхнем левом углу.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="yamliddoubles.html" class="btn btn-neutral float-right" title="Дубликаты в .yaml [yamliddoubles]" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="parser.html" class="btn btn-neutral" title="Полуавтоматический перенос курсов [parser]" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Dmitry Kryukov.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
